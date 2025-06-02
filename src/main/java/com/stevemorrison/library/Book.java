@@ -1,5 +1,9 @@
 package com.stevemorrison.library;
 
+/**
+ * Represents a book in the library. Tracks title, author, and issued status.
+ */
+
 public class Book {
     private String title;
     private String author;

@@ -3,6 +3,11 @@ package com.stevemorrison.library;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents a user of the library.
+ * Responsible for managing borrowed books and enforcing borrowing limits.
+ */
+
 public class User {
     private String name;
     private List<Book> borrowedBooks;
